@@ -1,37 +1,23 @@
 [
   {
-    "jobIDs": [1, 2, 3],
+    "jobIDs": [1, 2, 3, 4, 5, 6, 7, 8, 9],
     "aggregationMethod": 2,
     "power": 2,
-    "name": "ethCollectionMean",
-    "tolerance": 200
-  },
-  {
-    "jobIDs": [4, 5, 6],
-    "aggregationMethod": 2,
-    "power": 2,
-    "name": "btcCollectionMean",
-    "tolerance": 200
-  },
-  {
-    "jobIDs": [7, 8, 9],
-    "aggregationMethod": 2,
-    "power": 2,
-    "name": "goldusd_mean",
-    "tolerance": 200
-  },
-  {
-    "jobIDs": [10, 11, 12],
-    "aggregationMethod": 1,
-    "power": 5,
-    "name": "dogeusd_median",
+    "name": "ethCollectionMedian",
     "tolerance": 500000
   },
   {
-    "jobIDs": [13, 14, 15],
-    "aggregationMethod": 1,
-    "power": 5,
-    "name": "sklusd_median",
+    "jobIDs": [10, 11, 12],
+    "aggregationMethod": 2,
+    "power": 2,
+    "name": "RAZORUSD",
+    "tolerance": 500000
+  },
+  {
+    "jobIDs": [13, 14, 15, 16],
+    "aggregationMethod": 2,
+    "power": 2,
+    "name": "UFTUSD",
     "tolerance": 500000
   }
 ]
